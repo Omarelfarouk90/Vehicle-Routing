@@ -1,0 +1,236 @@
++--------------------------+
+| problem                  |
++---------------+----------+
+| indicator     | value    |
++---------------+----------+
+| noJobs        | 101      | 
+| noServices    | 0        | 
+| noShipments   | 101      | 
+| noBreaks      | 0        | 
+| fleetsize     | INFINITE | 
++--------------------------+
++----------------------------------------------------------+
+| solution                                                 |
++---------------+------------------------------------------+
+| indicator     | value                                    |
++---------------+------------------------------------------+
+| costs         | 12483.0                                  | 
+| noVehicles    | 3                                        | 
+| unassgndJobs  | 0                                        | 
++----------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------+
+| detailed solution                                                                                                              |
++---------+----------------------+-----------------------+-----------------+-----------------+-----------------+-----------------+
+| route   | vehicle              | activity              | job             | arrTime         | endTime         | costs           |
++---------+----------------------+-----------------------+-----------------+-----------------+-----------------+-----------------+
+| 1       | vehicle10            | start                 | -               | undef           | 0               | 0               |
+| 1       | vehicle10            | pickupShipment        | 0               | 0               | 1               | 0               |
+| 1       | vehicle10            | deliverShipment       | 0               | 1               | 1               | 0               |
+| 1       | vehicle10            | pickupShipment        | 81              | 1               | 2               | 0               |
+| 1       | vehicle10            | pickupShipment        | 26              | 2               | 3               | 0               |
+| 1       | vehicle10            | pickupShipment        | 5               | 3               | 4               | 0               |
+| 1       | vehicle10            | pickupShipment        | 70              | 4               | 5               | 0               |
+| 1       | vehicle10            | pickupShipment        | 35              | 5               | 6               | 0               |
+| 1       | vehicle10            | pickupShipment        | 6               | 6               | 7               | 0               |
+| 1       | vehicle10            | pickupShipment        | 99              | 7               | 8               | 0               |
+| 1       | vehicle10            | pickupShipment        | 74              | 8               | 9               | 0               |
+| 1       | vehicle10            | pickupShipment        | 66              | 9               | 10              | 0               |
+| 1       | vehicle10            | pickupShipment        | 80              | 10              | 11              | 0               |
+| 1       | vehicle10            | deliverShipment       | 26              | 12              | 12              | 346             |
+| 1       | vehicle10            | deliverShipment       | 66              | 22              | 22              | 436             |
+| 1       | vehicle10            | deliverShipment       | 80              | 24              | 24              | 488             |
+| 1       | vehicle10            | deliverShipment       | 74              | 27              | 27              | 526             |
+| 1       | vehicle10            | deliverShipment       | 99              | 36              | 36              | 627             |
+| 1       | vehicle10            | deliverShipment       | 6               | 37              | 37              | 646             |
+| 1       | vehicle10            | deliverShipment       | 35              | 46              | 46              | 711             |
+| 1       | vehicle10            | deliverShipment       | 70              | 52              | 52              | 756             |
+| 1       | vehicle10            | deliverShipment       | 81              | 62              | 62              | 806             |
+| 1       | vehicle10            | pickupShipment        | 48              | 72              | 73              | 978             |
+| 1       | vehicle10            | pickupShipment        | 83              | 73              | 74              | 978             |
+| 1       | vehicle10            | pickupShipment        | 33              | 74              | 75              | 978             |
+| 1       | vehicle10            | pickupShipment        | 88              | 75              | 76              | 978             |
+| 1       | vehicle10            | pickupShipment        | 22              | 76              | 77              | 978             |
+| 1       | vehicle10            | pickupShipment        | 94              | 77              | 78              | 978             |
+| 1       | vehicle10            | pickupShipment        | 31              | 78              | 79              | 978             |
+| 1       | vehicle10            | pickupShipment        | 36              | 79              | 80              | 978             |
+| 1       | vehicle10            | pickupShipment        | 40              | 80              | 81              | 978             |
+| 1       | vehicle10            | deliverShipment       | 48              | 85              | 85              | 1326            |
+| 1       | vehicle10            | deliverShipment       | 33              | 91              | 91              | 1415            |
+| 1       | vehicle10            | deliverShipment       | 88              | 93              | 93              | 1439            |
+| 1       | vehicle10            | deliverShipment       | 22              | 100             | 100             | 1557            |
+| 1       | vehicle10            | deliverShipment       | 94              | 101             | 101             | 1643            |
+| 1       | vehicle10            | deliverShipment       | 31              | 104             | 104             | 1661            |
+| 1       | vehicle10            | deliverShipment       | 40              | 110             | 110             | 1905            |
+| 1       | vehicle10            | deliverShipment       | 36              | 114             | 114             | 1969            |
+| 1       | vehicle10            | deliverShipment       | 83              | 122             | 122             | 1988            |
+| 1       | vehicle10            | pickupShipment        | 49              | 123             | 124             | 2445            |
+| 1       | vehicle10            | pickupShipment        | 43              | 124             | 125             | 2445            |
+| 1       | vehicle10            | pickupShipment        | 64              | 125             | 126             | 2445            |
+| 1       | vehicle10            | pickupShipment        | 77              | 126             | 127             | 2445            |
+| 1       | vehicle10            | pickupShipment        | 98              | 127             | 128             | 2445            |
+| 1       | vehicle10            | pickupShipment        | 65              | 128             | 129             | 2445            |
+| 1       | vehicle10            | pickupShipment        | 97              | 129             | 130             | 2445            |
+| 1       | vehicle10            | pickupShipment        | 39              | 130             | 131             | 2445            |
+| 1       | vehicle10            | pickupShipment        | 42              | 131             | 132             | 2445            |
+| 1       | vehicle10            | deliverShipment       | 43              | 139             | 139             | 2707            |
+| 1       | vehicle10            | deliverShipment       | 64              | 149             | 149             | 2972            |
+| 1       | vehicle10            | deliverShipment       | 77              | 151             | 151             | 2995            |
+| 1       | vehicle10            | deliverShipment       | 39              | 161             | 161             | 3043            |
+| 1       | vehicle10            | deliverShipment       | 42              | 163             | 163             | 3067            |
+| 1       | vehicle10            | deliverShipment       | 97              | 165             | 165             | 3161            |
+| 1       | vehicle10            | deliverShipment       | 65              | 172             | 172             | 3238            |
+| 1       | vehicle10            | deliverShipment       | 98              | 175             | 175             | 3268            |
+| 1       | vehicle10            | deliverShipment       | 5               | 183             | 183             | 3318            |
+| 1       | vehicle10            | pickupShipment        | 55              | 186             | 187             | 3374            |
+| 1       | vehicle10            | pickupShipment        | 100             | 187             | 188             | 3374            |
+| 1       | vehicle10            | pickupShipment        | 2               | 188             | 189             | 3374            |
+| 1       | vehicle10            | pickupShipment        | 62              | 189             | 190             | 3374            |
+| 1       | vehicle10            | pickupShipment        | 25              | 190             | 191             | 3374            |
+| 1       | vehicle10            | pickupShipment        | 96              | 191             | 192             | 3374            |
+| 1       | vehicle10            | pickupShipment        | 29              | 192             | 193             | 3374            |
+| 1       | vehicle10            | pickupShipment        | 37              | 193             | 194             | 3374            |
+| 1       | vehicle10            | pickupShipment        | 8               | 194             | 195             | 3374            |
+| 1       | vehicle10            | deliverShipment       | 25              | 197             | 197             | 3381            |
+| 1       | vehicle10            | pickupShipment        | 73              | 199             | 200             | 3388            |
+| 1       | vehicle10            | deliverShipment       | 73              | 206             | 206             | 3624            |
+| 1       | vehicle10            | deliverShipment       | 29              | 210             | 210             | 3751            |
+| 1       | vehicle10            | deliverShipment       | 37              | 215             | 215             | 3788            |
+| 1       | vehicle10            | deliverShipment       | 100             | 218             | 218             | 3799            |
+| 1       | vehicle10            | deliverShipment       | 55              | 223             | 223             | 3819            |
+| 1       | vehicle10            | deliverShipment       | 2               | 229             | 229             | 3861            |
+| 1       | vehicle10            | deliverShipment       | 8               | 233             | 233             | 3944            |
+| 1       | vehicle10            | deliverShipment       | 96              | 243             | 243             | 4113            |
+| 1       | vehicle10            | deliverShipment       | 62              | 253             | 253             | 4162            |
+| 1       | vehicle10            | deliverShipment       | 49              | 255             | 255             | 4291            |
+| 1       | vehicle10            | end                   | -               | 263             | undef           | 4440            |
++---------+----------------------+-----------------------+-----------------+-----------------+-----------------+-----------------+
+| 2       | vehicle10            | start                 | -               | undef           | 0               | 0               |
+| 2       | vehicle10            | pickupShipment        | 78              | 0               | 1               | 0               |
+| 2       | vehicle10            | deliverShipment       | 78              | 7               | 7               | 86              |
+| 2       | vehicle10            | pickupShipment        | 53              | 13              | 14              | 172             |
+| 2       | vehicle10            | deliverShipment       | 53              | 17              | 17              | 358             |
+| 2       | vehicle10            | pickupShipment        | 19              | 20              | 21              | 544             |
+| 2       | vehicle10            | pickupShipment        | 38              | 21              | 22              | 544             |
+| 2       | vehicle10            | pickupShipment        | 24              | 22              | 23              | 544             |
+| 2       | vehicle10            | pickupShipment        | 82              | 23              | 24              | 544             |
+| 2       | vehicle10            | pickupShipment        | 60              | 24              | 25              | 544             |
+| 2       | vehicle10            | pickupShipment        | 23              | 25              | 26              | 544             |
+| 2       | vehicle10            | pickupShipment        | 52              | 26              | 27              | 544             |
+| 2       | vehicle10            | pickupShipment        | 58              | 27              | 28              | 544             |
+| 2       | vehicle10            | pickupShipment        | 41              | 28              | 29              | 544             |
+| 2       | vehicle10            | pickupShipment        | 51              | 29              | 30              | 544             |
+| 2       | vehicle10            | deliverShipment       | 51              | 31              | 31              | 754             |
+| 2       | vehicle10            | deliverShipment       | 41              | 37              | 37              | 804             |
+| 2       | vehicle10            | deliverShipment       | 82              | 39              | 39              | 884             |
+| 2       | vehicle10            | pickupShipment        | 15              | 43              | 44              | 993             |
+| 2       | vehicle10            | pickupShipment        | 7               | 44              | 45              | 993             |
+| 2       | vehicle10            | pickupShipment        | 72              | 45              | 46              | 993             |
+| 2       | vehicle10            | deliverShipment       | 15              | 50              | 50              | 1038            |
+| 2       | vehicle10            | deliverShipment       | 60              | 52              | 52              | 1302            |
+| 2       | vehicle10            | deliverShipment       | 58              | 55              | 55              | 1410            |
+| 2       | vehicle10            | deliverShipment       | 52              | 56              | 56              | 1446            |
+| 2       | vehicle10            | deliverShipment       | 23              | 58              | 58              | 1513            |
+| 2       | vehicle10            | deliverShipment       | 72              | 61              | 61              | 1566            |
+| 2       | vehicle10            | deliverShipment       | 24              | 63              | 63              | 1584            |
+| 2       | vehicle10            | deliverShipment       | 7               | 68              | 68              | 1616            |
+| 2       | vehicle10            | pickupShipment        | 95              | 72              | 73              | 1668            |
+| 2       | vehicle10            | pickupShipment        | 85              | 73              | 74              | 1668            |
+| 2       | vehicle10            | pickupShipment        | 11              | 74              | 75              | 1668            |
+| 2       | vehicle10            | pickupShipment        | 21              | 75              | 76              | 1668            |
+| 2       | vehicle10            | pickupShipment        | 87              | 76              | 77              | 1668            |
+| 2       | vehicle10            | pickupShipment        | 69              | 77              | 78              | 1668            |
+| 2       | vehicle10            | pickupShipment        | 46              | 78              | 79              | 1668            |
+| 2       | vehicle10            | pickupShipment        | 63              | 79              | 80              | 1668            |
+| 2       | vehicle10            | deliverShipment       | 87              | 84              | 84              | 1876            |
+| 2       | vehicle10            | deliverShipment       | 63              | 94              | 94              | 1910            |
+| 2       | vehicle10            | deliverShipment       | 95              | 96              | 96              | 1936            |
+| 2       | vehicle10            | deliverShipment       | 46              | 105             | 105             | 2065            |
+| 2       | vehicle10            | deliverShipment       | 69              | 114             | 114             | 2132            |
+| 2       | vehicle10            | deliverShipment       | 11              | 124             | 124             | 2197            |
+| 2       | vehicle10            | deliverShipment       | 85              | 133             | 133             | 2246            |
+| 2       | vehicle10            | pickupShipment        | 44              | 134             | 135             | 2287            |
+| 2       | vehicle10            | pickupShipment        | 4               | 135             | 136             | 2287            |
+| 2       | vehicle10            | pickupShipment        | 61              | 136             | 137             | 2287            |
+| 2       | vehicle10            | pickupShipment        | 59              | 137             | 138             | 2287            |
+| 2       | vehicle10            | pickupShipment        | 17              | 138             | 139             | 2287            |
+| 2       | vehicle10            | pickupShipment        | 3               | 139             | 140             | 2287            |
+| 2       | vehicle10            | pickupShipment        | 47              | 140             | 141             | 2287            |
+| 2       | vehicle10            | deliverShipment       | 4               | 144             | 144             | 2644            |
+| 2       | vehicle10            | deliverShipment       | 61              | 153             | 153             | 2688            |
+| 2       | vehicle10            | deliverShipment       | 59              | 162             | 162             | 2771            |
+| 2       | vehicle10            | deliverShipment       | 3               | 170             | 170             | 2875            |
+| 2       | vehicle10            | deliverShipment       | 47              | 173             | 173             | 2994            |
+| 2       | vehicle10            | deliverShipment       | 17              | 178             | 178             | 3029            |
+| 2       | vehicle10            | deliverShipment       | 44              | 181             | 181             | 3043            |
+| 2       | vehicle10            | deliverShipment       | 21              | 187             | 187             | 3121            |
+| 2       | vehicle10            | pickupShipment        | 91              | 189             | 190             | 3241            |
+| 2       | vehicle10            | pickupShipment        | 93              | 190             | 191             | 3241            |
+| 2       | vehicle10            | pickupShipment        | 90              | 191             | 192             | 3241            |
+| 2       | vehicle10            | pickupShipment        | 9               | 192             | 193             | 3241            |
+| 2       | vehicle10            | pickupShipment        | 10              | 193             | 194             | 3241            |
+| 2       | vehicle10            | pickupShipment        | 12              | 194             | 195             | 3241            |
+| 2       | vehicle10            | pickupShipment        | 1               | 195             | 196             | 3241            |
+| 2       | vehicle10            | pickupShipment        | 50              | 196             | 197             | 3241            |
+| 2       | vehicle10            | deliverShipment       | 91              | 198             | 198             | 3403            |
+| 2       | vehicle10            | deliverShipment       | 93              | 203             | 203             | 3472            |
+| 2       | vehicle10            | deliverShipment       | 90              | 205             | 205             | 3502            |
+| 2       | vehicle10            | deliverShipment       | 9               | 207             | 207             | 3600            |
+| 2       | vehicle10            | deliverShipment       | 10              | 208             | 208             | 3682            |
+| 2       | vehicle10            | deliverShipment       | 12              | 210             | 210             | 3748            |
+| 2       | vehicle10            | deliverShipment       | 38              | 217             | 217             | 3950            |
+| 2       | vehicle10            | deliverShipment       | 1               | 220             | 220             | 3988            |
+| 2       | vehicle10            | deliverShipment       | 50              | 224             | 224             | 4036            |
+| 2       | vehicle10            | deliverShipment       | 19              | 232             | 232             | 4105            |
+| 2       | vehicle10            | end                   | -               | 242             | undef           | 4201            |
++---------+----------------------+-----------------------+-----------------+-----------------+-----------------+-----------------+
+| 3       | vehicle10            | start                 | -               | undef           | 0               | 0               |
+| 3       | vehicle10            | pickupShipment        | 45              | 0               | 1               | 0               |
+| 3       | vehicle10            | pickupShipment        | 14              | 1               | 2               | 0               |
+| 3       | vehicle10            | pickupShipment        | 34              | 2               | 3               | 0               |
+| 3       | vehicle10            | pickupShipment        | 68              | 3               | 4               | 0               |
+| 3       | vehicle10            | pickupShipment        | 57              | 4               | 5               | 0               |
+| 3       | vehicle10            | pickupShipment        | 18              | 5               | 6               | 0               |
+| 3       | vehicle10            | pickupShipment        | 56              | 6               | 7               | 0               |
+| 3       | vehicle10            | pickupShipment        | 67              | 7               | 8               | 0               |
+| 3       | vehicle10            | pickupShipment        | 76              | 8               | 9               | 0               |
+| 3       | vehicle10            | pickupShipment        | 71              | 9               | 10              | 0               |
+| 3       | vehicle10            | deliverShipment       | 71              | 13              | 13              | 220             |
+| 3       | vehicle10            | deliverShipment       | 18              | 23              | 23              | 283             |
+| 3       | vehicle10            | deliverShipment       | 67              | 31              | 31              | 344             |
+| 3       | vehicle10            | deliverShipment       | 76              | 35              | 35              | 376             |
+| 3       | vehicle10            | pickupShipment        | 30              | 42              | 43              | 541             |
+| 3       | vehicle10            | pickupShipment        | 84              | 43              | 44              | 541             |
+| 3       | vehicle10            | pickupShipment        | 54              | 44              | 45              | 541             |
+| 3       | vehicle10            | pickupShipment        | 27              | 45              | 46              | 541             |
+| 3       | vehicle10            | deliverShipment       | 34              | 51              | 51              | 671             |
+| 3       | vehicle10            | pickupShipment        | 75              | 56              | 57              | 801             |
+| 3       | vehicle10            | deliverShipment       | 56              | 61              | 61              | 1159            |
+| 3       | vehicle10            | deliverShipment       | 84              | 69              | 69              | 1234            |
+| 3       | vehicle10            | deliverShipment       | 54              | 78              | 78              | 1285            |
+| 3       | vehicle10            | deliverShipment       | 75              | 84              | 84              | 1579            |
+| 3       | vehicle10            | deliverShipment       | 30              | 85              | 85              | 1620            |
+| 3       | vehicle10            | deliverShipment       | 14              | 89              | 89              | 1730            |
+| 3       | vehicle10            | deliverShipment       | 45              | 92              | 92              | 1905            |
+| 3       | vehicle10            | deliverShipment       | 68              | 94              | 94              | 1953            |
+| 3       | vehicle10            | deliverShipment       | 57              | 100             | 100             | 2053            |
+| 3       | vehicle10            | pickupShipment        | 20              | 106             | 107             | 2104            |
+| 3       | vehicle10            | pickupShipment        | 16              | 107             | 108             | 2104            |
+| 3       | vehicle10            | pickupShipment        | 32              | 108             | 109             | 2104            |
+| 3       | vehicle10            | pickupShipment        | 13              | 109             | 110             | 2104            |
+| 3       | vehicle10            | pickupShipment        | 92              | 110             | 111             | 2104            |
+| 3       | vehicle10            | pickupShipment        | 28              | 111             | 112             | 2104            |
+| 3       | vehicle10            | pickupShipment        | 86              | 112             | 113             | 2104            |
+| 3       | vehicle10            | pickupShipment        | 89              | 113             | 114             | 2104            |
+| 3       | vehicle10            | pickupShipment        | 79              | 114             | 115             | 2104            |
+| 3       | vehicle10            | deliverShipment       | 79              | 116             | 116             | 2578            |
+| 3       | vehicle10            | deliverShipment       | 89              | 124             | 124             | 2602            |
+| 3       | vehicle10            | deliverShipment       | 28              | 133             | 133             | 2762            |
+| 3       | vehicle10            | deliverShipment       | 13              | 142             | 142             | 2841            |
+| 3       | vehicle10            | deliverShipment       | 32              | 145             | 145             | 2904            |
+| 3       | vehicle10            | deliverShipment       | 20              | 148             | 148             | 3093            |
+| 3       | vehicle10            | deliverShipment       | 16              | 150             | 150             | 3375            |
+| 3       | vehicle10            | deliverShipment       | 92              | 158             | 158             | 3439            |
+| 3       | vehicle10            | deliverShipment       | 86              | 166             | 166             | 3473            |
+| 3       | vehicle10            | deliverShipment       | 27              | 174             | 174             | 3568            |
+| 3       | vehicle10            | end                   | -               | 179             | undef           | 3836            |
++--------------------------------------------------------------------------------------------------------------------------------+
